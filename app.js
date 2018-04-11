@@ -1,3 +1,4 @@
+// import express from 'express';
 var express = require('express');
 var fs = require('fs');
 var baidu = require('baidutemplate');
@@ -14,6 +15,6 @@ app
   })
   .get('/test', test);
 
-app.listen(3000, function() {
+app.listen(3002, function() {
   console.log('Example app listening on port 3000!');
 });
