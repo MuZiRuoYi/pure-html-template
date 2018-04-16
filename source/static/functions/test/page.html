@@ -1,0 +1,13 @@
+<!-- <%css: %>
+<%js: %> -->
+<%html: component/header.html %>
+  <ul>
+    <% for (var i = 0, len = list.length; i < len; i++){ %>
+      <li>
+        <span>这是第：</span>
+        <%= list[i] %>
+          </span>行</span>
+      </li>
+      <% } %>
+  </ul>
+  <%html: component/footer.html %>
